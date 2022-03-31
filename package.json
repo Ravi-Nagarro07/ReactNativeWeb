@@ -10,6 +10,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "appcenter": "^4.4.3",
+    "appcenter-analytics": "^4.4.3",
+    "appcenter-crashes": "^4.4.3",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "react": "17.0.2",
