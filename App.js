@@ -11,8 +11,9 @@ import {
   BackHandler,
   Platform,
   PermissionsAndroid,
+  View, Text
 } from 'react-native';
-import { WebView } from 'react-native-webview';
+// import { WebView } from 'react-native-webview';
 import RNAndroidLocationEnabler from 'react-native-android-location-enabler';
 
 class App extends Component {
@@ -74,12 +75,11 @@ class App extends Component {
 
   render() {
     return (
-      <WebView source={{
-        uri: "https://codepen.io/ocinpp/pen/EpbXKz"
-      }}
-        ref={(webView) => { this.webView.ref = webView; }}
-        geolocationEnabled={true}
-        onNavigationStateChange={(navState) => { this.webView.canGoBack = navState.canGoBack; }} />
+      <View>
+        <Text>
+          testing
+        </Text>
+      </View>
     );
   };
 }
