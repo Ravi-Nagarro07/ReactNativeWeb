@@ -10,7 +10,6 @@ import React, { Component } from 'react';
 import {
   BackHandler,
   Platform,
-  PermissionsAndroid,
   View, Text
 } from 'react-native';
 // import { WebView } from 'react-native-webview';
